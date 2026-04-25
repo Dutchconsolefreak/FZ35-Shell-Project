@@ -1,6 +1,6 @@
 #include <kernel:types.h>
 #include <kernel:driver.h>
-#include <serialdebug.h>
+#include "serialdebug.h"
 
 int main(int argc, char **argv)
 {
