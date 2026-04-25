@@ -20,7 +20,7 @@ git config filter.mac-classic.clean "tr '\r' '\n'"
 git config filter.mac-classic.smudge "tr '\n' '\r'"
 git config core.autocrlf false
 
-### VS Code Settings
+**VS Code Settings**
 To keep the editor UI clean and prevent encoding issues, the following is configured in .vscode/settings.json:
 
 Files Exclude: Mac OS 9 metadata folders (.finf, .rsrc) are hidden from the explorer.
