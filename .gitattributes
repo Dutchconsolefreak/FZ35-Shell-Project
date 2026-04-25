@@ -1,0 +1,3 @@
+*.c       filter=mac-classic
+*.h       filter=mac-classic
+*.make    filter=mac-classic
