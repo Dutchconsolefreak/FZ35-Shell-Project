@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.finf": true,
+        "**/.rsrc": true,
+        "**/TheFindByContentFolder": true,
+        "**/TheVolumeSettingsFolder": true,
+        "**/Desktop DB": true,
+        "**/Desktop DF": true
+    },
+    "files.eol": "\n",
+    "files.associations": {
+        "*.make": "makefile"
+    }
+}
