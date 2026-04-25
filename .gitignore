@@ -1,6 +1,7 @@
-# Mac OS 9 / SheepShaver rommel
+# Mac OS 9 / SheepShaver stuff
 .finf/
 .rsrc/
+.vscode/
 .DS_Store
 TheFindByContentFolder/
 TheVolumeSettingsFolder/
