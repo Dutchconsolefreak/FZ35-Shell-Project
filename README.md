@@ -32,3 +32,24 @@ To keep the editor UI clean and prevent encoding issues, the following is config
 
 **Files Exclude:** SheepShaver metadata folders (.finf, .rsrc) are hidden from the explorer.
 **EOL:** Default line endings are set to LF to match the Git filter expectations.-->
+
+## PuTTY Serial Console Settings
+
+To ensure correct communication with the M2 Shell, configure PuTTY with the following settings:
+
+### Connection → Serial
+| Setting | Value |
+| :--- | :--- |
+| **Speed (Baud)** | 57600 |
+| **Data bits** | 8 |
+| **Stop bits** | 1 |
+| **Parity** | None |
+| **Flow Control** | None |
+
+### Terminal
+* **Implicit CR in every LF:** ON (This prevents lines from overwriting each other)
+
+### Terminal → Keyboard
+* **Backspace key:** Control-H (Ensures correct character deletion in the shell)
+
+> **Note:** Tested with PuTTY 0.81 on Windows 10. These settings match the NS16550 UART configuration used in the project's source code.
